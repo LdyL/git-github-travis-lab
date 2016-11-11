@@ -4,4 +4,6 @@ from msc.rot13 import rot13
 
 from msc.rot13 import rot13_char
 
-from msc.rot13 import test_rot13_char_a
+def test_rot13_char_a():
+ 
+   assert_equal("n",rot13_char("a"))
